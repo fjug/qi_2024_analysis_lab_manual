@@ -4,6 +4,12 @@
 
 <small>This file last updated 2024-04-04.</small>
 
+```
+Notes from the spreadsheet on what we might want to update:
+
+Maybe add some BTrack stuff - (Alan says there's a good notebook), and/or UlTrac and/or TracX
+```
+
 ---
 
 ## **Part 1: Tracking**
@@ -11,8 +17,8 @@
 ### Learning Objectives
 
 - (Semi-)automated Tracking with Mastodon in Fiji
-- Using Trackmate from within Mastodon
-- Tracking with ilastik
+- Using Trackmate{cite}`Tinevez2017-fb` from within Mastodon
+- Tracking with ilastik{cite}`Berg2019-no`
 - Bonus: exporting from ilastik, editing in Mastodon - note from Beth - this isn't there
 
 ---
@@ -228,7 +234,7 @@ There is much more interesting stuff to explore. Here some inspiration:
 - Apply and scrutinize photobleach correction
 - Double-normalized FRAP analysis
 
-Lab Data: [<u>https://bit.ly/qi2023labs</u>](https://bit.ly/qi2023labs)
+Lab Data: [<u>https://tinyurl.com/qi2024labs</u>](https://tinyurl.com/qi2024labs)
 
 ---
 

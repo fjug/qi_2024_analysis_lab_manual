@@ -4,17 +4,23 @@
 
 <small>This file last updated 2024-04-04.</small>
 
+```
+Notes from the spreadsheet on what we might want to update:
+
+Would be nice to add CellProfiler {Beth's current notes - I don't see how really? Other than with plugins? Will need to install Docker for that if we do it, should just be a bonus exercise}
+```
+
 ---
 
 ## **Segmentation** 
 
 ### Learning Objectives
 
-- Train a pixel classifier to segment ima
-- Learn to use ilas
+- Train a pixel classifier to segment images
+- Learn to use ilastik {cite}`Berg2019-no`
 - Experiment with how features and data affect performance
 
-Lab Data: [<u>https://bit.ly/qi2023labs</u>](https://bit.ly/qi2023labs)
+Lab Data: [<u>https://tinyurl.com/qi2024labs</u>](https://tinyurl.com/qi2024labs)
 
 ---
 
@@ -90,7 +96,7 @@ There is a train and a test stack. Why is that?
 
 - [ ] Feature-based cell classification
 
-Lab Data: [<u>https://bit.ly/qi2023labs</u>](https://bit.ly/qi2023labs)
+Lab Data: [<u>https://tinyurl.com/qi2024labs</u>](https://tinyurl.com/qi2024labs)
 
 ### Segment Nuclei for Feature Extraction
 

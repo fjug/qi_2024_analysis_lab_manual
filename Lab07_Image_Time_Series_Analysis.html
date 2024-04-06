@@ -178,7 +178,6 @@
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="Lab02_Image_Processing_and_Basic_Detection.html">Image Processing and Basic Detection</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Lab03_Image_Correction_and_Intensity_Measurements.html">Image Correction and Intensity Measurements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Lab04_ML-based_Segmentation_and_Classification.html">Segmentation and Pixel Classification</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Lab05_DL4MIA_Zero_N2V_StarDist_CellPose2.html">Deep Learning for Microscopy Image Analysis</a></li>
@@ -416,7 +415,7 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-2-photobleaching"><strong>Part 2: Photobleaching</strong></a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Learning Objectives</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Learning Objectives</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bleach-correction">Bleach Correction</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#frap">FRAP</a></li>
 </ul>
@@ -436,6 +435,11 @@ document.write(`
 <h1>Image Time Series Analysis<a class="headerlink" href="#image-time-series-analysis" title="Link to this heading">#</a></h1>
 <p><em>Lab authors: Hunter Elliott, Damian Dalle Nogare and Florian Jug</em> .</p>
 <p><small>This file last updated 2024-04-04.</small></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Notes</span> <span class="kn">from</span> <span class="nn">the</span> <span class="n">spreadsheet</span> <span class="n">on</span> <span class="n">what</span> <span class="n">we</span> <span class="n">might</span> <span class="n">want</span> <span class="n">to</span> <span class="n">update</span><span class="p">:</span>
+
+<span class="n">Maybe</span> <span class="n">add</span> <span class="n">some</span> <span class="n">BTrack</span> <span class="n">stuff</span> <span class="o">-</span> <span class="p">(</span><span class="n">Alan</span> <span class="n">says</span> <span class="n">there</span><span class="s1">&#39;s a good notebook), and/or UlTrac and/or TracX</span>
+</pre></div>
+</div>
 <hr class="docutils" />
 <section id="part-1-tracking">
 <h2><strong>Part 1: Tracking</strong><a class="headerlink" href="#part-1-tracking" title="Link to this heading">#</a></h2>
@@ -443,8 +447,8 @@ document.write(`
 <h3>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>(Semi-)automated Tracking with Mastodon in Fiji</p></li>
-<li><p>Using Trackmate from within Mastodon</p></li>
-<li><p>Tracking with ilastik</p></li>
+<li><p>Using Trackmate<span id="id1">[<a class="reference internal" href="bibliography.html#id7" title="Jean-Yves Tinevez, Nick Perry, Johannes Schindelin, Genevieve M Hoopes, Gregory D Reynolds, Emmanuel Laplantine, Sebastian Y Bednarek, Spencer L Shorte, and Kevin W Eliceiri. TrackMate: an open and extensible platform for single-particle tracking. Methods, 115:80–90, February 2017.">3</a>]</span> from within Mastodon</p></li>
+<li><p>Tracking with ilastik<span id="id2">[<a class="reference internal" href="bibliography.html#id8" title="Stuart Berg, Dominik Kutra, Thorben Kroeger, Christoph N Straehle, Bernhard X Kausler, Carsten Haubold, Martin Schiegg, Janez Ales, Thorsten Beier, Markus Rudy, Kemal Eren, Jaime I Cervantes, Buote Xu, Fynn Beuttenmueller, Adrian Wolny, Chong Zhang, Ullrich Koethe, Fred A Hamprecht, and Anna Kreshuk. Ilastik: interactive machine learning for (bio)image analysis. Nat. Methods, 16(12):1226–1232, December 2019.">1</a>]</span></p></li>
 <li><p>Bonus: exporting from ilastik, editing in Mastodon - note from Beth - this isn’t there</p></li>
 </ul>
 </section>
@@ -647,13 +651,13 @@ speed this up? (Ask the online manual…)</p></li>
 </section>
 <section id="part-2-photobleaching">
 <h2><strong>Part 2: Photobleaching</strong><a class="headerlink" href="#part-2-photobleaching" title="Link to this heading">#</a></h2>
-<section id="id1">
-<h3>Learning Objectives<a class="headerlink" href="#id1" title="Link to this heading">#</a></h3>
+<section id="id3">
+<h3>Learning Objectives<a class="headerlink" href="#id3" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Apply and scrutinize photobleach correction</p></li>
 <li><p>Double-normalized FRAP analysis</p></li>
 </ul>
-<p>Lab Data: <a class="reference external" href="https://bit.ly/qi2023labs"><u>https://bit.ly/qi2023labs</u></a></p>
+<p>Lab Data: <a class="reference external" href="https://tinyurl.com/qi2024labs"><u>https://tinyurl.com/qi2024labs</u></a></p>
 </section>
 <hr class="docutils" />
 <section id="bleach-correction">
@@ -821,7 +825,7 @@ of the molecule of interest, followed by slower stronger association.</p></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-2-photobleaching"><strong>Part 2: Photobleaching</strong></a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Learning Objectives</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Learning Objectives</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bleach-correction">Bleach Correction</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#frap">FRAP</a></li>
 </ul>
